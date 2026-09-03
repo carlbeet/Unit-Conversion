@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+    <title> Unit Conversions </title>
+</head>
+<body>
+<section id = "home"> <h1> Unit conversions </h1>
+
+    <nav>
+        <a href="#temperature"><button>Temperature</button></a>
+        <a href="#weight"> <button> Weight </button> </a>
+        <a href="#Distance"> <button> Distance </button> </a>
+    </nav>
+</section>
+<div id="all conversion sections"> 
+    <section id = "temperature"> 
+        <div id="tmp">
+            <figure> 
+           
+        <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/thermo.png" width = 200px> 
+    <figcaption> Temperature in Celcius </figcaption> </div>
+    </figure>
+
+    <article>
+        <fieldset>
+            <legend> Enter temperature in celcius</legend>
+            <label for="temperature"> Temperature: </label> </br>
+    
+            <input type="number" id="temperature" required> <br> <br>
+            <button type = "submit"> Convert to Farenheit </button> </br>
+
+            <legend> Enter temperature in farenheit</legend>
+            <label for="temperature"> Temperature: </label> <br>
+    
+            <input type="number" id="temperature" required> <br> <br>
+            <button type = "submit"> Convert to Celcius </button>
+        </fieldset>
+
+        </article>
+        <aside>
+            To convert celsius to fahrenheit yourself, use this formula replacing the `C` with your temperature in celsius: (C × 9/5) + 32
+          </aside>
+
+    </section>
+
+    <section id = "weight">
+        <div id = "wgt">
+            <figure> 
+            </figure>
+            <img src = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/weight.png" width = 200px>
+            <figcaption> Kg to pounds Conversion </figcaption> 
+        
+        <article>
+            <fieldset>
+                <legend> Enter weight in kg </legend>
+
+                <label for="weight"> Weight in kg: </label> </br>
+                <input type = "number" id = "weight" required> <br>
+                <button id="weight"> Convert </button> </br>
+
+                <legend> Enter weight in lbs </legend>
+                <label for="pounds">Pounds</label> </br>
+                <input type="number" id="pounds"> <br/>
+                <button id="weight"> Convert </button> </br>
+            </legend>
+        </fieldset>
+        </article>
+        <aside>
+            To convert to kgs yourself, multiply pounds by 2.2 for every 1 kilogram.
+        </div>
+    </section>
+
+    <section id="Distance">
+        <figure id = "dist">
+        <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/speedo.png" width = 200px>
+            <Figcaption = "km to miles conversion">
+            </figcaption>
+        </figure>
+        
+        <article> 
+        <fieldset> 
+            <legend> enter distance in km </legend>
+            <label for="distance"> Distance </label> <br>
+            <input type="number" id="distance" required> <br> <br>
+            <button type="Submit"> Convert to miles </button> <br>
+            <legend> enter distance in miles </legend>
+            <input type="number" id="distance" required> <br> <br>
+            <button type="Submit"> Convert to kilometers </button> <br>
+
+        </fieldset>
+
+        </article>
+
+        <aside>
+            To convert kilometers to miles yourself, use this formula replacing the `km` with your distance in kilometers: km &divide; 1.609
+        </aside> <br>
+
+    </section>
+
+
+</div>
+<div id="go home">
+    <a href=#home>
+        <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/home.svg">
+    </a>
+</div>
+    
+ 
+</body>
+
+</html>
