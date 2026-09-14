@@ -17,14 +17,14 @@ body {
 
 header {
     font-size: 30px;
-    color:lightpink;
+    color: rgb(255, 141, 198);
     float: left;
     padding-left: 2cm;
 }
 
 h1 { 
     font-size: 30px;
-    color:lightpink;
+    color:darkmagenta ;
     float: left;
     padding-left: 2cm;
 
@@ -81,6 +81,7 @@ button{
 }
 button:hover {
     cursor: pointer;
+    background-color: rgb(233, 250, 215);
 }
 /* The calculator panel */
 .b{
